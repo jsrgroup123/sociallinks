@@ -10,7 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
-
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
 
 *{
@@ -132,6 +133,75 @@ h1{
     font-size:12px;
     color:#666;
 }
+.left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.left i{
+    font-size:28px;
+    width:35px;
+}
+
+.website:hover{
+    background:#111827;
+}
+
+.whatsapp:hover{
+    background:#25D366;
+}
+
+.facebook:hover{
+    background:#1877F2;
+}
+
+.instagram:hover{
+    background:linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4);
+}
+
+.youtube:hover{
+    background:#ff0000;
+}
+
+.maps:hover{
+    background:#34a853;
+}
+
+.call:hover{
+    background:#0ea5e9;
+}
+
+.brochure:hover{
+    background:#f97316;
+}
+
+.link-btn:hover{
+    color:#fff;
+}
+
+.card{
+    backdrop-filter:blur(15px);
+    background:rgba(255,255,255,.95);
+}
+
+.logo img{
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+body{
+    background:
+    linear-gradient(
+    135deg,
+    #0f172a,
+    #1e3a8a,
+    #0ea5e9);
+}
 
 </style>
 </head>
@@ -171,39 +241,68 @@ h1{
 
 <div class="links">
 
-<a href="https://www.yourwebsite.com" class="link-btn" target="_blank">
+<a href="#" class="link-btn website" target="_blank">
+<div class="left">
+<i class="fas fa-globe"></i>
 <span>Official Website</span>
-<span class="arrow">→</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="https://wa.me/919999999999" class="link-btn" target="_blank">
+<a href="#" class="link-btn whatsapp" target="_blank">
+<div class="left">
+<i class="fab fa-whatsapp"></i>
 <span>WhatsApp</span>
-<span class="arrow">→</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="https://www.facebook.com/" class="link-btn" target="_blank">
+<a href="#" class="link-btn facebook" target="_blank">
+<div class="left">
+<i class="fab fa-facebook-f"></i>
 <span>Facebook</span>
-<span class="arrow">→</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="https://www.instagram.com/" class="link-btn" target="_blank">
+<a href="#" class="link-btn instagram" target="_blank">
+<div class="left">
+<i class="fab fa-instagram"></i>
 <span>Instagram</span>
-<span class="arrow">→</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="https://www.youtube.com/" class="link-btn" target="_blank">
+<a href="#" class="link-btn youtube" target="_blank">
+<div class="left">
+<i class="fab fa-youtube"></i>
 <span>YouTube</span>
-<span class="arrow">→</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="https://maps.google.com/" class="link-btn" target="_blank">
-<span>📍Google Maps</span>
-<span class="arrow">→</span>
+<a href="#" class="link-btn maps" target="_blank">
+<div class="left">
+<i class="fas fa-location-dot"></i>
+<span>Google Maps</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
-<a href="tel:+919999999999" class="link-btn">
-<span>☎ Call Us</span>
-<span class="arrow">→</span>
+<a href="tel:+919999999999" class="link-btn call">
+<div class="left">
+<i class="fas fa-phone"></i>
+<span>Call Us</span>
+</div>
+<i class="fas fa-arrow-right"></i>
+</a>
+
+<a href="#" class="link-btn brochure" target="_blank">
+<div class="left">
+<i class="fas fa-file-pdf"></i>
+<span>Download Brochure</span>
+</div>
+<i class="fas fa-arrow-right"></i>
 </a>
 
 </div>
